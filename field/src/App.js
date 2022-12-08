@@ -1,25 +1,33 @@
 import React from 'react'
-import'./App.css';
-// import Contact from './contact/Contact';
+import "./App.css"
+import Card from './Components/Card/Card'
 
-
-
-
-function App(){
-  // const data = true;
-  return(
-    <div className="App">
-      {/* <Contact /> */}
-      <div>
-        first commit
-      </div>
-     
-       
+const App = () => {
+  return (
+    <div className='mainWrapper'>
+    <Card />
 
     </div>
-  );
+  )
 }
-export default App;
+
+export default App
+
+
+
+// import React, { useState } from 'react';
+// import Card from './Components/Card';
+
+
+// function App() {
+//    return 
+//    (
+    
+//     <Card />
+
+//    );  
+// }
+// export default App;
 
 
 
