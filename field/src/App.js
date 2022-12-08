@@ -6,6 +6,10 @@ const App = () => {
   return (
     <div className='mainWrapper'>
     <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
 
     </div>
   )
